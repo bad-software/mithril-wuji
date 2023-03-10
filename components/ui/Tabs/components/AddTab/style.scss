@@ -1,0 +1,38 @@
+
+@mixin hover {
+  //background: var(--overlay2);
+  opacity: 1;
+}
+
+.body {
+  /* Animation */
+  transition-property: background-color, opacity;
+  transition-duration: var(--animationDuration);
+  transition-timing-function: ease-out;
+
+  /* Display */
+  align-items: center;
+  background: var(--overlay3);
+  border: none;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+
+  /* Size */
+  aspect-ratio: 1;
+  height: 100%;
+
+  /* UX */
+  cursor: pointer;
+
+  &:hover { @include hover }
+  &:active { background: var(--overlay2)}
+}
+
+.dragover { @include hover }
+
+.icon, .icon__delete {
+  pointer-events: none;
+}
+
+.icon__delete { fill: var(--error)}

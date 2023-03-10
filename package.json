@@ -1,0 +1,20 @@
+{
+  "name": "@bad-software/mithril-wuji",
+  "version": "0.0.1",
+  "description": "Mithril UI components",
+  "type": "module",
+  "main": "index.js",
+  "packageManager": "yarn@3.0.2",
+  "imports": {
+    "#Assets": "./assets/index.js",
+    "#Assets/*": "./assets/*",
+    "#Components": "./components/index.js",
+    "#Components/*": "./components/*",
+    "#Styles/*": "./styles/*"
+  },
+  "dependencies": {
+    "@soulofmischief/async.js": "^5.0.0",
+    "@soulofmischief/js-utils": "^0.21.0",
+    "mithril": "^2.2.2"
+  }
+}

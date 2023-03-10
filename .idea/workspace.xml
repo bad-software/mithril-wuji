@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bb12227-7d9e-4ef6-a35e-30e318921b5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/account.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/bookmark-filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/comment-filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/entypo/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/entypo/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/entypo/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/entypo/mastodon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/entypo/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/erlenmeyer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/filters.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/flask-chemical-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/flask-science-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/flask-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/folder-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/folder-starred.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/fullscreen-exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/gear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/globe1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/hamburger-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/indeterminate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/insights.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/logo-lettermark-beta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/logo-lettermark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/notebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/options-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/post-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/replay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/reply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/search1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/search2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/selectAll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/settings-knobs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/share-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/sort.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/unchecked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/unmute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/buttons/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/buttons/Button/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/buttons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/Card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/Card/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/StructuredCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/StructuredCard/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/svg/Icon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/svg/Icon/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/svg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/ContextMenu/handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/ContextMenu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/ContextMenu/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/components/Header/components/Close/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/components/Header/components/Close/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/components/Header/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Modal/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/AddTab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/AddTab/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondrag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondragend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondragenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondragleave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondragover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondragstart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ondrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ontouchcancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ontouchend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ontouchmove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/lib/ontouchstart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/Tab/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/components/var.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Tabs/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/hr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/keyframes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/textarea.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/util.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/var.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="winev615" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="2G6lhOtc7J4IUPzALxNDteF7fCd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/Projects/git/bad-software/mithril-wuji&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/components/ui" />
+      <recent name="$PROJECT_DIR$/components/ui/Modal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/components/ui/Modal/components/Header/components" />
+      <recent name="$PROJECT_DIR$/components/ui" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bb12227-7d9e-4ef6-a35e-30e318921b5f" name="Changes" comment="" />
+      <created>1665717032201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665717032201</updated>
+      <workItem from="1665717033408" duration="3780000" />
+      <workItem from="1666573481460" duration="22000" />
+      <workItem from="1666573510500" duration="2185000" />
+      <workItem from="1666739257706" duration="1267000" />
+      <workItem from="1666749306621" duration="16574000" />
+      <workItem from="1667188802750" duration="640000" />
+      <workItem from="1667262815460" duration="4684000" />
+      <workItem from="1667345470774" duration="2586000" />
+      <workItem from="1667712825773" duration="25421000" />
+      <workItem from="1668206629705" duration="2391000" />
+      <workItem from="1668210438484" duration="27540000" />
+      <workItem from="1669037372769" duration="5076000" />
+      <workItem from="1669104988967" duration="24114000" />
+      <workItem from="1669281750005" duration="8502000" />
+      <workItem from="1669398667598" duration="18025000" />
+      <workItem from="1677877357487" duration="1108000" />
+      <workItem from="1677897916087" duration="8000" />
+      <workItem from="1677916906184" duration="1155000" />
+      <workItem from="1677919096512" duration="469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

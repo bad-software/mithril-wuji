@@ -1,0 +1,32 @@
+
+*, *:before, *:after { box-sizing: inherit }
+html { box-sizing: border-box }
+
+::selection {
+  background: var(--primary);
+  color: var(--primaryTextColor);
+}
+
+
+
+
+
+
+
+
+/**[title]:hover::after {
+  !* Animation *!
+  animation: FadeIn 400ms;
+
+  !* Display *!
+  background: var(--primary);
+  content: attr(title);
+
+  !* Position *!
+  left: 0;
+  position: absolute;
+  top: -100%;
+
+  !* Text *!
+  color: var(--primaryTextColor);
+}*/

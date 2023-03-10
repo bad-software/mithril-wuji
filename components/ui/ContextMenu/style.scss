@@ -1,0 +1,89 @@
+@use '#Styles/mixins' as mixins;
+@use '#Styles/theme' as theme;
+
+
+.body {
+  @include mixins.absoluteFull;
+
+  /* Display */
+  content: '';
+
+  /* Position */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000000;
+}
+
+.icon {
+  /* Position */
+  margin-right: 8px;
+
+  /* SVG */
+  fill: var(--primary);
+}
+
+.menu {
+  --left: 0;
+  --top: 0;
+  --transform-x: 0;
+  --transform-y: 0;
+
+  /* Animation */
+  transform: translate( var(--transform-x), var(--transform-y));
+
+  /* Display */
+  background: var(--background);
+  border-color: var(--overlay);
+  box-shadow: var(--shadow);
+
+  /* Position */
+  left: var(--left);
+  position: fixed;
+  margin: 0;
+  top: var(--top);
+
+  /* Size */
+  min-width: max-content;
+
+  /* UX */
+  cursor: pointer;
+  user-select: none;
+
+  &_item {
+    /* Animation */
+    transition-property: background-color, color;
+    transition-duration: var(--animationDuration);
+    transition-timing-function: ease-out;
+
+    /* Display */
+    background: var(--overlay4);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 8px;
+
+    @include mixins.hover {
+      background: var(--overlay2);
+
+      @include theme.darkBlack { background: var(--overlay)}
+    }
+    //&:active { background: var(--overlay)}
+
+    @include theme.darkBlack {
+      @include mixins.hover { color: var(--primary)}
+      background: var(--overlay2);
+    }
+
+    &__disabled {
+      /* UX */
+      cursor: default;
+
+      & .menu_item_label {
+        /* Display */
+        opacity: 0.375;
+      }
+    }
+  }
+}

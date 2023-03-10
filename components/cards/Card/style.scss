@@ -1,0 +1,16 @@
+@use '#Styles/theme' as theme;
+
+
+.body {
+  --border: 0.5px solid var(--overlay);
+
+  /* Display */
+  border: 1px solid var(--overlay);
+  border-left-width: 0.5px;
+  border-right-width: 0.5px;
+  border-radius: 2px;
+  box-shadow: var(--shadow);
+
+  /* Position */
+  margin: 1rem;
+}

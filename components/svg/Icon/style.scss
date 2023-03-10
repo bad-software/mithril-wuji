@@ -1,0 +1,27 @@
+@use '#Styles/theme' as theme;
+
+
+.body {
+  --size: 1rem;
+
+  /* Display */
+  //box-sizing: content-box;
+
+  /* Position */
+  //margin-right: 4px;
+
+  /* Size */
+  //height: auto;
+  height: var(--size);
+  width: var(--size);
+
+  /* SVG */
+  fill: var(--text);
+
+  @include theme.darkBlack {
+    /* SVG */
+    fill: var(--primary);
+  }
+}
+
+.noMargin { margin: 0 }

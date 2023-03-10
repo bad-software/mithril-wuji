@@ -1,0 +1,18 @@
+//@use './var' as *;
+
+
+// Using the descendant combinator too much can result in bad performance.
+// Module CSS splitting is used to mitigate this slightly, but be judicious
+// in the use of these mixins.
+
+// Dark
+@mixin dark {[data-theme="dark"] & { @content }}
+
+// Black
+@mixin black {[data-theme="black"] & { @content }}
+
+// Dark or Black
+@mixin darkBlack {
+  [data-theme="dark"] & { @content }
+  [data-theme="black"] & { @content }
+}

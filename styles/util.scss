@@ -1,0 +1,76 @@
+
+/* Margin */
+
+.m-0 { margin: 0 }
+.m-1 { margin: 8px }
+.m-2 { margin: 16px }
+.m-3 { margin: 24px }
+.m-4 { margin: 32px }
+
+.m-b-0 { margin-bottom: 0 }
+.m-b-1 { margin-bottom: 8px }
+.m-b-2 { margin-bottom: 16px }
+.m-b-3 { margin-bottom: 24px }
+.m-b-4 { margin-bottom: 32px }
+.m-b-a { margin-bottom: auto }
+
+.m-l-0 { margin-left: 0 }
+.m-l-1 { margin-left: 8px }
+.m-l-2 { margin-left: 16px }
+.m-l-3 { margin-left: 24px }
+.m-l-4 { margin-left: 32px }
+.m-l-a { margin-left: auto }
+
+.m-r-0 { margin-right: 0 }
+.m-r-1 { margin-right: 8px }
+.m-r-2 { margin-right: 16px }
+.m-r-3 { margin-right: 24px }
+.m-r-4 { margin-right: 32px }
+.m-r-a { margin-right: auto }
+
+.m-t-0 { margin-top: 0 }
+.m-t-1 { margin-top: 8px }
+.m-t-2 { margin-top: 16px }
+.m-t-3 { margin-top: 24px }
+.m-t-4 { margin-top: 32px }
+.m-t-a { margin-top: auto }
+
+
+/* Padding */
+
+.p-0 { padding: 0 }
+.p-1 { padding: 8px }
+.p-2 { padding: 16px }
+.p-3 { padding: 24px }
+.p-4 { padding: 32px }
+
+
+/* Positioning */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Text formatting */
+.italic { font-style: italic }
+
+.b,.bold { font-weight: bold }
+.thin { font-weight: 400 }
+.w100 { font-weight: 100 }
+.w200 { font-weight: 200 }
+.w300 { font-weight: 300 }
+.w400 { font-weight: 400 }
+.w500 { font-weight: 500 }
+.w600 { font-weight: 600 }
+.w700 { font-weight: 700 }
+.w800 { font-weight: 800 }
+.w900 { font-weight: 900 }
+
+.center-txt { text-align: center }
+
+
+/* Shadow */
+
+.shadow-1 { box-shadow: var(--shadow)}

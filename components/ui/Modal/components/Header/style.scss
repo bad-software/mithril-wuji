@@ -1,0 +1,22 @@
+
+.body {
+  // Display
+  background: var(--overlay);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  // Position
+  position: relative;
+}
+
+.title {
+  // Display
+  position: relative;
+
+  // Position
+  margin: 12px 16px;
+
+  // Text
+  font-size: 1rem;
+}

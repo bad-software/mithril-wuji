@@ -1,0 +1,13 @@
+
+.body {
+  // Display
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: auto;
+
+  // Size
+  width: 100%;
+
+  // UX
+  user-select: none;
+}

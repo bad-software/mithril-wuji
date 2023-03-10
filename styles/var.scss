@@ -1,0 +1,128 @@
+
+:root {
+  /* Theme */
+  --background: ghostwhite;
+  --backgroundRGB: 248,248,255;
+
+  --text: #14110f;
+  --textRGB: 20, 17, 15;
+
+  --textDark: #14110f;
+  --textDarkRGB: 20, 17, 15;
+
+  --textLight: #fafafa;
+  --textLightRGB: 250,250,250;
+
+  --primary: #76bed0;
+  --primaryRGB: 118, 190, 208;
+  --primaryTextColor: #14110f;
+  --primaryTextColorRGB: 20, 17, 15;
+
+  --secondary: #94fbab;
+  --secondaryRGB: 148, 251, 171;
+  --secondaryTextColor: #14110f;
+  --secondaryTextColorRGB: 20, 17, 15;
+
+  --tertiary: #f7cb15;
+  --tertiaryRGB: 247, 203, 21;
+  --tertiaryTextColor: #14110f;
+  --tertiaryTextColorRGB: 20, 17, 15;
+
+  --quaternary: #f55d3e;
+  --quaternaryRGB: 245, 93, 62;
+  --quaternaryTextColor: #14110f;
+  --quaternaryTextColorRGB: 20, 17, 15;
+
+  --error: #ff0033;
+  --success: forestgreen;
+
+  --linkColor: royalblue;
+  --linkHoverColor: grey;
+  --logoColor: var(--text);
+
+  /* Utils */
+  --outline: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+  --midpoint: rgba( var(--textRGB), 0.5 );
+  --overlay:  rgba( var(--textRGB), 0.2 );
+  --overlay2: rgba( var(--textRGB), 0.1 );
+  --overlay3: rgba( var(--textRGB), 0.05 );
+  --overlay4: rgba( var(--textRGB), 0.025 );
+  --overlay5: rgba( var(--textRGB), 0.0125 );
+  --textOverlay: rgba( var(--textRGB), 0.625 );
+  --shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --shadow2: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+
+  /* Scaling */
+  --defaultPadding: 0.5rem;
+  --pagePadding: var(--defaultPadding);
+  --textPadding: 0.5rem;
+
+  /* UX */
+  --buttonTransform: translateY( 2px );
+  --animationDuration: calc( 100ms * var(--animationDurationMultiplier));
+  --animationDurationMultiplier: 1;
+
+  /* Components */
+  --accountCardSize: 100px;
+  --accountsItemHeaderBorderColor: rgba(0,0,0,0.15);
+  --createPriceColor: forestgreen;
+  --eventCardHeaderBackground: var(--text);
+  --eventCardHeaderColor: var(--background);
+  /* TODO: This is terribly named and used all over. Generalize. */
+  --navActiveBackgroundColor: rgba(0,0,0,0.04);
+  --navHoverBackgroundColor: var(--background);
+  --navHoverBorderColor: rgba(0,0,0,0.4);
+  --optionsTextShadow: none;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  /* Theme */
+  --background: #242423;
+  --backgroundRGB: 36, 36, 35;
+
+  --text: white;
+  --textRGB: 255,255,255;
+
+  --linkColor: var(--primary);
+  --linkHoverColor: white;
+  --logoColor: var(--primary);
+
+  /* Components */
+  --accountsItemHeaderBorderColor: rgba(255,255,255,0.2);
+  --createPriceColor: var(--text);
+  --eventCardHeaderColor: var(--text);
+  --eventCardHeaderBackground: var(--background);
+  --navActiveBackgroundColor: var(--background);
+  --navHoverBorderColor: rgba(255,255,255,0.75);
+}
+
+/* Black mode */
+[data-theme="black"] {
+  /* Theme */
+  --background:    black;
+  --backgroundRGB: 0,0,0;
+
+  --text:    white;
+  --textRGB: 255,255,255;
+
+  --linkColor: white;
+
+  /* Logo */
+  --dotColor: white;
+
+  /* Components */
+  --accountsItemHeaderBorderColor: rgba(255,255,255,0.2);
+  --createPriceColor: var(--text);
+  --eventCardHeaderColor: var(--text);
+  --eventCardHeaderBackground: var(--background);
+  --navActiveBackgroundColor: var(--background);
+  --navHoverBorderColor: rgba(255,255,255,0.75);
+}

@@ -1,0 +1,52 @@
+@use '#Styles/theme' as theme;
+
+
+@mixin active {
+  /* Display */
+  border-bottom-color: var(--primary);
+  border-bottom-width: 2px;
+  opacity: 1;
+
+  @include theme.darkBlack { border-bottom-width: 1px }
+}
+
+.body {
+  /* Animation */
+  transition-property: border-bottom-color, border-bottom-width, opacity;
+  transition-duration: var(--animationDuration);
+  transition-timing-function: ease-out;
+
+  /* Display */
+  background: var(--background);
+  border: 1px solid var(--overlay);
+  margin-right: 4px;
+  opacity: 0.375;
+  padding: 8px;
+
+  /* Position */
+  position: relative;
+
+  /* UX */
+  cursor: pointer;
+}
+
+.active { @include active }
+
+.dragOver {
+  /* Display */
+  background: var(--primary);
+  opacity: 1;
+
+  /* Text */
+  color: var(--primaryTextColor);
+}
+
+
+.touch {
+  /* Display */
+  background: var(--primary);
+  opacity: 0.75;
+
+  /* Text */
+  color: var(--primaryTextColor);
+}

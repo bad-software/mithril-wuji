@@ -1,0 +1,72 @@
+@use '#Styles/theme' as theme;
+@use '#Styles/mixins' as mixins;
+
+
+.body {
+  --backgroundColor: var(--overlay3);
+  --color: var(--text);
+
+  /* Animation */
+  transition-duration: var(--animationDuration);
+  transition-property: background, box-shadow, color;
+  transition-timing-function: ease-out;
+
+  /* Display */
+  align-self: center;
+  background: var(--backgroundColor);
+  border: 1px solid var(--overlay4);
+  box-shadow: var(--shadow);
+  padding: 8px 12px;
+
+  /* Position */
+  margin-bottom: 8px;
+  position: relative;
+
+  /* Size */
+  //min-width: 6em;
+  //width: 100%;
+
+  /* Text */
+  color: var(--color);
+  font-size: 1rem;
+
+  /* UX */
+  cursor: pointer;
+
+  @include mixins.hover {
+    //background: var(--overlay);
+    //color: var(--text);
+  }
+
+  &:active:not(:disabled) {
+    box-shadow: var(--insetShadow);
+  }
+}
+
+.disabled {
+  --progress: 0%;
+
+  /* Display */
+  background: rgba(0,0,0,0.2);
+  color: white;
+
+  /* UX */
+  cursor: not-allowed !important;
+
+  @include theme.darkBlack {
+    background: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.5);
+  }
+
+  &::after {
+    // Progress bar
+    background: var(--primary);
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: var(--progress);
+    z-index: 10;
+  }
+}

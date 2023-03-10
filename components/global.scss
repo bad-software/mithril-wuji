@@ -1,0 +1,21 @@
+
+/* Colors */
+.primary {
+  --backgroundColor: var(--primary);
+  --color: var(--primaryTextColor);
+}
+
+.secondary {
+  --backgroundColor: var(--secondary);
+  --color: var(--secondaryTextColor);
+}
+
+.tertiary {
+  --backgroundColor: var(--tertiary);
+  --color: var(--tertiaryTextColor);
+}
+
+.quaternary {
+  --backgroundColor: var(--quaternary);
+  --color: var(--quaternaryTextColor);
+}

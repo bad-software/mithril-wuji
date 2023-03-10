@@ -1,0 +1,6 @@
+
+// We define this property separately so that we can use without a namespace,
+// since namespacing doesn't work with the sibling operator.
+.isDragged {
+  background: orange;
+}
